@@ -101,3 +101,4 @@ C:\Users\stepa\source\repos\Test_999.md\Test_999.md\obj\Debug\net6.0\Test_999.md
 C:\Users\stepa\source\repos\Test_999.md\Test_999.md\obj\Debug\net6.0\Test_999.md.genruntimeconfig.cache
 C:\Users\stepa\source\repos\Test_999.md\Test_999.md\obj\Debug\net6.0\ref\Test_999.md.dll
 C:\Users\stepa\source\repos\Test_999.md\Test_999.md\bin\Debug\net6.0\Selenium.Community.PageObjects.dll
+C:\Users\stepa\source\repos\Test_999.md\Test_999.md\obj\Debug\net6.0\Test_999.md.sourcelink.json
