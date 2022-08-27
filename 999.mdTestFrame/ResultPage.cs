@@ -12,8 +12,7 @@ namespace Test_999.md._999.mdTestFrame
 {
     internal class ResultPage : BasePage
     {
-        /*[FindsBy(How = How.Id, Using = "js-categories-toggle")]*/
-        [FindsBy(How = How.Id, Using = "//div//h1")]
+        [FindsBy(How = How.Id, Using = "js-categories-toggle")]
         private IWebElement title;
 
         public ResultPage()
