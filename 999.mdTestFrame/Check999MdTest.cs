@@ -10,10 +10,17 @@ namespace Test_999.md._999.mdTestFrame
     internal class Check999MdTest : BaseTest
     {
         [Test]
-        public void test()
+        public void testTitle()
         {
-            new MainPage()
-                .FirstTest();
+            /*var mainPage = new MainPage();*/
+
+            ResultPage resultPage = new MainPage()
+                .search()
+                .clickToResult();
+
+            string test = resultPage.getTitle();
+
+            Assert.True(test.Contains("тег"));
         }
     }
 }

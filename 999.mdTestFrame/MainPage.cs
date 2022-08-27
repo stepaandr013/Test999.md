@@ -21,11 +21,12 @@ namespace Test_999.md._999.mdTestFrame
             PageFactory.InitElements(driver, this);
         }
 
-        public MainPage FirstTest()
+        public SearchPage search()
         {
             searchInput.SendKeys(TestSettings.SEARCH_ITEM);
             searchInput.SendKeys(Keys.Enter);
-            return new MainPage();
+            Thread.Sleep(1000);
+            return new SearchPage();
         }
     }
 }
