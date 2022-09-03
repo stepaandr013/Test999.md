@@ -20,14 +20,6 @@ namespace Test_999.md._999.mdTestFrame
             PageFactory.InitElements(driver, this);
         }
 
-        /*public ResultPage ttt()
-        {
-            title.Click();
-            Thread.Sleep(5000);
-            *//*string test = title.Text;*//*
-            return this;
-        }*/
-
         public string getTitle()
         {
             return title.Text;

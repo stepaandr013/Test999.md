@@ -12,8 +12,6 @@ namespace Test_999.md._999.mdTestFrame
         [Test]
         public void testTitle()
         {
-            /*var mainPage = new MainPage();*/
-
             ResultPage resultPage = new MainPage()
                 .search()
                 .clickToResult();
