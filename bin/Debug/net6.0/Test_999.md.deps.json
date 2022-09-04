@@ -10,12 +10,14 @@
         "dependencies": {
           "DotNetSeleniumExtras.PageObjects": "3.11.0",
           "DotNetSeleniumExtras.PageObjects.Core": "4.3.0",
+          "Microsoft.Edge.SeleniumTools": "3.141.3",
           "Microsoft.NET.Test.Sdk": "17.3.0",
           "Microsoft.SourceLink.GitHub": "1.1.1",
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
           "NUnit3TestAdapter": "4.2.1",
           "Selenium.Community.PageObjects": "1.0.0",
+          "Selenium.Firefox.WebDriver": "0.27.0",
           "Selenium.Support": "4.4.0",
           "Selenium.WebDriver": "4.4.0",
           "Selenium.WebDriver.ChromeDriver": "104.0.5112.7900",
@@ -48,6 +50,17 @@
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
             "assemblyVersion": "15.0.0.0",
             "fileVersion": "17.300.622.32707"
+          }
+        }
+      },
+      "Microsoft.Edge.SeleniumTools/3.141.3": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.4.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Edge.SeleniumTools.dll": {
+            "assemblyVersion": "3.141.3.0",
+            "fileVersion": "3.141.3.0"
           }
         }
       },
@@ -358,6 +371,7 @@
           }
         }
       },
+      "Selenium.Firefox.WebDriver/0.27.0": {},
       "Selenium.Support/4.4.0": {
         "dependencies": {
           "Selenium.WebDriver": "4.4.0"
@@ -425,6 +439,13 @@
       "sha512": "sha512-/xxz+e29F2V5pePtInjbLffoqWVTm60KCX87vSj2laNboeWq65WFJ634fGtBcMZO3VEfOmh9/XcoWEfLlWWG+g==",
       "path": "microsoft.codecoverage/17.3.0",
       "hashPath": "microsoft.codecoverage.17.3.0.nupkg.sha512"
+    },
+    "Microsoft.Edge.SeleniumTools/3.141.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t20ScE4OHq7dTSU4NS4nhELJPppq7MI8bR8qvDkbfWw/bbh2BBLBBmAruJ0rARxYAT4xvBqud/ORauXfF3LpkQ==",
+      "path": "microsoft.edge.seleniumtools/3.141.3",
+      "hashPath": "microsoft.edge.seleniumtools.3.141.3.nupkg.sha512"
     },
     "Microsoft.NET.Test.Sdk/17.3.0": {
       "type": "package",
@@ -516,6 +537,13 @@
       "sha512": "sha512-E1JNFGZSeE+y6Gs90KjsgGCzu7z5ALU3d+HaKeMmPbhJzxo6BasVpQlZ71bTiwkqH+gtOLtujpIHGM3EWxzw8Q==",
       "path": "selenium.community.pageobjects/1.0.0",
       "hashPath": "selenium.community.pageobjects.1.0.0.nupkg.sha512"
+    },
+    "Selenium.Firefox.WebDriver/0.27.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HwCaTaa+snzkLF7ZVaxKSmdttKm+KXT7HOY8c1q8p9E7x05+WHqw5XaZjUGFytVT1+0FkgUoH/u/I+csPLeJAg==",
+      "path": "selenium.firefox.webdriver/0.27.0",
+      "hashPath": "selenium.firefox.webdriver.0.27.0.nupkg.sha512"
     },
     "Selenium.Support/4.4.0": {
       "type": "package",

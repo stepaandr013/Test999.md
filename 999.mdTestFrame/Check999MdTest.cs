@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Test_999.md.core;
+using Test_999.md.settings;
 
 namespace Test_999.md._999.mdTestFrame
 {
@@ -24,9 +25,12 @@ namespace Test_999.md._999.mdTestFrame
         [Test]
         public void testLogin()
         {
-            new MainPage()
+            PersonalAreaPage personalAreaPage = new MainPage()
                 .enterLoginPage()
-                .login();
+                .login()
+                .personalArea();
+
+            Assert.AreEqual(PasswordLoginSettings.LOGIN, personalAreaPage.getUserName());
         }
     }
 }
