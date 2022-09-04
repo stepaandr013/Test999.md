@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gSnkG5VIeaaoVB0/nRLMw8OZrlTqKXDn7MDWwWMbggQRXf1s1QdSKVJ7jZZ8SDTIhwUpML7pUfTXeZg6L/T8rQ==",
+  "dgSpecHash": "sAk+9NWPjtNXSgLaRetOOLlWCLu2z+NMmkaxVlP3pM5lF/AuZlvYW/nCu7IxA39TDrhv/AQM0J+KFOiY8AT6Kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\stepa\\source\\repos\\Test_999.md\\Test_999.md\\Test_999.md.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\stepa\\.nuget\\packages\\selenium.support\\4.4.0\\selenium.support.4.4.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\selenium.webdriver\\4.4.0\\selenium.webdriver.4.4.0.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\selenium.webdriver.chromedriver\\104.0.5112.7900\\selenium.webdriver.chromedriver.104.0.5112.7900.nupkg.sha512",
+    "C:\\Users\\stepa\\.nuget\\packages\\selenium.webdriver.geckodriver\\0.31.0.1\\selenium.webdriver.geckodriver.0.31.0.1.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\system.reflection.dispatchproxy\\4.5.1\\system.reflection.dispatchproxy.4.5.1.nupkg.sha512",
     "C:\\Users\\stepa\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
