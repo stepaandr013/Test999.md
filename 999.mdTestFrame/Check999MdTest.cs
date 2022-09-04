@@ -20,5 +20,13 @@ namespace Test_999.md._999.mdTestFrame
 
             Assert.True(test.Contains("тег"));
         }
+
+        [Test]
+        public void testLogin()
+        {
+            new MainPage()
+                .enterLoginPage()
+                .login();
+        }
     }
 }
