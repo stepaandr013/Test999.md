@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Test_999.md.settings
 {
-    internal class TestSettings
+    public class TestSettings
     {
         public static readonly string URL = "https://999.md/ru/";
         public static readonly string SEARCH_ITEM = "ford fusion";
